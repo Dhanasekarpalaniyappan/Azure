@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dhanadatafactory16112024"
+		},
+		"AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase_password": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics_password": {
+			"value": ""
+		},
+		"linkedService1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://dhana16112024.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "dhana16112024.database.windows.net"
+		},
+		"AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "dhanalearn"
+		},
+		"AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "dhana"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_server": {
+			"value": "dhanalearnsynaps.sql.azuresynapse.net"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_database": {
+			"value": "pooldb"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_userName": {
+			"value": "dhana"
+		},
+		"linkedService1_properties_typeProperties_url": {
+			"value": "https://dhana16112024.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
