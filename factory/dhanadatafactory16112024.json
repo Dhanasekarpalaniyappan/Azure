@@ -1,0 +1,9 @@
+{
+	"name": "dhanadatafactory16112024",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38e8711a-afdf-413f-ac4e-a43dde9a5ab2",
+		"tenantId": "69276d78-bd66-452e-9b22-8d8c54df671b"
+	}
+}
